@@ -2,7 +2,7 @@
   "name": "taro-ultra-club",
   "version": "1.0.0",
   "private": true,
-  "description": " 奥特曼俱乐部",
+  "description": "奥特曼俱乐部",
   "templateInfo": {
     "name": "default",
     "typescript": false,
