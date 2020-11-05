@@ -6,7 +6,7 @@ import './index.scss'
 export default function Index() {
   const [posts, setPosts] = useState([
     {
-      title: '泰罗奥特曼',
+      title: '泰罗奥特曼11',
       content: '泰罗是奥特之父和奥特之母唯一的亲生儿子。',
     },
   ])
@@ -24,7 +24,7 @@ export default function Index() {
   return (
     <View className="index">
       {posts.map((post, index) => (
-        <PostCard key={index} title={post.title} content={post.content} />
+        <PostCard key={index} title={post.title} content={post.content} isList/>
       ))}
       <PostForm
         formTitle={formTitle}

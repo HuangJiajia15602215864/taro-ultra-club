@@ -2,7 +2,7 @@
 	"miniprogramRoot": "dist/",
 	"projectname": "taro-ultra-club",
 	"description": "奥特曼俱乐部",
-	"appid": "touristappid",
+	"appid": "wxb969d0966452460b",
 	"setting": {
 		"urlCheck": true,
 		"es6": false,
