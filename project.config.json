@@ -4,7 +4,7 @@
 	"description": "奥特曼俱乐部",
 	"appid": "wxb969d0966452460b",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": false,
 		"enhance": false,
 		"postcss": false,
