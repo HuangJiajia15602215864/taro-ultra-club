@@ -1,6 +1,6 @@
 const config = {
   projectName: 'taro-ultra-club',
-  date: '2020-11-4',
+  date: '2020-11-6',
   designWidth: 750,
   deviceRatio: {
     640: 2.34 / 2,
@@ -45,6 +45,7 @@ const config = {
   h5: {
     publicPath: '/',
     staticDirectory: 'static',
+    esnextModules: ['taro-ui'],
     postcss: {
       autoprefixer: {
         enable: true,

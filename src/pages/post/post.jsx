@@ -1,4 +1,5 @@
-import Taro, { useRouter } from '@tarojs/taro'
+import React from 'react'
+import  { useRouter } from '@tarojs/taro'
 import { View } from '@tarojs/components'
 import { PostCard } from '../../components'
 
@@ -10,7 +11,7 @@ export default function Post() {
 
   return (
     <View className="post">
-      <PostCard title={params.title} content={params.content} />
+      <PostCard title={decodeURI(params.title)} content={decodeURI(params.content)} />
     </View>
   )
 }

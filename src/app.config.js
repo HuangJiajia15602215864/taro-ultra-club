@@ -1,6 +1,6 @@
 export default {
   pages: [
-    'pages/mine/mine', 'pages/index/index', 'pages/mine/mine', 'pages/post/post'
+    'pages/index/index', 'pages/mine/mine', 'pages/post/post'
   ],
   window: {
     backgroundTextStyle: 'light',
